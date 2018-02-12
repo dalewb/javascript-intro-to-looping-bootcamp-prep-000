@@ -13,9 +13,8 @@ function whileLoop(num) {
   while (num > 0) {
     if (countdown === 0) {
       console.log("done.")
-    else {
+   } else {
       console.log(--num)
-    }
     }
   }
 }
