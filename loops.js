@@ -9,6 +9,17 @@ function forLoop(array) {
   return array 
 }
 
+function whileLoop(num) {
+  while (num > 0) {
+    if (countdown === 0) {
+      console.log("done.")
+    else {
+      console.log(--num)
+    }
+    }
+  }
+}
+
 function maybeTrue() {
   return Math.random() >= 0.5
 }
